@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size:x-large;
+}
+
+@font-face {
+    font-family: "8BIT_WONDER";
+    src: url("font/8BIT_WONDER.ttf") format("truetype");
+}
+
+body{
+    background-color: #000000;
+}
+
+#screen{
+    width:1280px;
+    height:720px;
+    position:absolute;
+    margin:0 auto;
+}
+
+#playzone{
+    position:absolute;
+    width:1280px;
+    height:520px;
+    top:0px;
+    background-color:blue;
+    overflow:hidden;
+}
+
+#hud{
+    font-family: "8BIT_WONDER", Verdana, Comic;
+    color:#DACD4B;
+    position:absolute;
+    width:1280px;
+    height:200px;
+    bottom:0px;
+    background-color:#575859;
+    border-top:2px solid black;
+}
+
+#plane{
+    width:50px;
+    height:50px;
+    position:absolute;
+    bottom:10px;
+    left:600px;
+    z-index: 2;
+}
+
+.bulletShot{
+    width:5px;
+    height:10px;
+}
+
+#score{
+    position:absolute;
+    top:20px;
+    left:100px;
+    text-align: left;
+    width:350px;
+}
+
+#sc{
+    position:absolute;
+    top:20px;
+    left:300px;
+    font-size:xx-large;
+}
+
+#fuel{
+    position:absolute;
+    top:75px;
+    left:300px;
+    text-align: left;
+    width:350px;
+}
+
+#fuelmeter{
+    position:absolute;
+    z-index:5;
+}
+
+#ind{
+    position:absolute;
+    left:300px;
+    top:20px;
+    z-index:4;
+    width:10px;
+    height: 40px;
+}
+
+#highscore{
+    position:absolute;
+    top:20px;
+    right:100px;
+    text-align: left;
+    width:350px;
+    color:black;
+}
+
+#hi{
+    text-align: right;
+    font-size:xx-large;
+    position:absolute;
+    top:20px;
+    right:100px;
+    color:black;
+}
+
+#bridge{
+    position:absolute;
+    top:75px;
+    right:100px;
+    text-align: left;
+    width:350px;
+}
+
+#brid{
+    position:absolute;
+    top:75px;
+    right:100px;
+    text-align: right;
+    font-size:xx-large;
+}
+
+#liveMeter{
+    position:absolute;
+    top:130px;
+    right:100px;
+    text-align: left;
+    width:350px;
+}
+
+#map{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+}
+
+.audio{
+    display:none;
+}
+
+.info{
+    position:absolute;
+    top:100%;
+    color: white;
+}
+
+#startInfo{
+    opacity:1;
+}
+
+#pauseInfo{
+    opacity:0;
+}
+
+#gameone{
+    position:absolute;
+    color:black;
+    top:75px;
+    left:100px;
+    font-size:xx-large;
+}
+
+#gameone1{
+    position:absolute;
+    color:black;
+    top:110px;
+    left:180px;
+    font-size:xx-large;
+}
